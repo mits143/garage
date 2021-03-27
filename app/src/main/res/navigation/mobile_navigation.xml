@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.app.garageapplication.Fragment.Home"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.app.garageapplication.Fragment.Account"
+        android:label="@string/account"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.app.garageapplication.Fragment.Orders"
+        android:label="@string/orders"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_pick_history"
+        android:name="com.app.garageapplication.Fragment.PickUpAndDropHistory"
+        android:label="@string/pick_history"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_pick_slots"
+        android:name="com.app.garageapplication.Fragment.PickUpAndDropSlots"
+        android:label="@string/pick_slots"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_communication"
+        android:name="com.app.garageapplication.Fragment.Communication"
+        android:label="@string/communication"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_job_card_history"
+        android:name="com.app.garageapplication.Fragment.JobCardHsitory"
+        android:label="@string/jobcardhistroy"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_package_details"
+        android:name="com.app.garageapplication.Fragment.PackageDetails"
+        android:label="@string/packagedetails"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="com.app.garageapplication.Fragment.ContactUs"
+        android:label="@string/contactus"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_faq"
+        android:name="com.app.garageapplication.Fragment.FAQ"
+        android:label="@string/faq"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.app.garageapplication.Fragment.Feedback"
+        android:label="@string/feedback"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_terms_conditions"
+        android:name="com.app.garageapplication.Fragment.TermsAndCondition"
+        android:label="@string/terms"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.app.garageapplication.Fragment.AboutUs"
+        android:label="@string/aboutus"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_reg_emp"
+        android:name="com.app.garageapplication.Fragment.RegisterEmployee"
+        android:label="@string/reg_emp"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_wallet"
+        android:name="com.app.garageapplication.Fragment.Wallet"
+        android:label="@string/wallet"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_chatting"
+        android:name="com.app.garageapplication.Fragment.Chatting"
+        android:label="@string/chatting"
+        tools:layout="@layout/fragment_home" />
+</navigation>

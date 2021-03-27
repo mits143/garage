@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_pattern"
+    android:orientation="vertical"
+    tools:context=".activities.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_175sdp"
+            android:background="@color/color_template_divider_line2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="@dimen/_45sdp"
+                android:src="@drawable/garageicon" />
+        </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <com.app.garageapplication.utility.TextViewDrawableSize
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:drawableLeft="@drawable/ic_email_icon"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:text="@string/email"
+                    android:textSize="@dimen/_12ssp"
+                    app:compoundDrawableHeight="@dimen/_18sdp"
+                    app:compoundDrawableWidth="@dimen/_18sdp" />
+
+                <com.app.garageapplication.utility.TextViewDrawableSize
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="john@gmail.com"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorBlack"
+                    android:textSize="@dimen/_11ssp" />
+
+                <com.app.garageapplication.utility.TextViewDrawableSize
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:drawableLeft="@drawable/ic_mo_no"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:text="@string/mobile_no"
+                    android:textSize="@dimen/_12ssp"
+                    app:compoundDrawableHeight="@dimen/_18sdp"
+                    app:compoundDrawableWidth="@dimen/_18sdp" />
+
+                <com.app.garageapplication.utility.TextViewDrawableSize
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="1234567890"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorBlack"
+                    android:textSize="@dimen/_11ssp" />
+
+                <com.app.garageapplication.utility.TextViewDrawableSize
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:drawableLeft="@drawable/ic_add_map_icon"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:text="@string/address"
+                    android:textSize="@dimen/_12ssp"
+                    app:compoundDrawableHeight="@dimen/_18sdp"
+                    app:compoundDrawableWidth="@dimen/_18sdp" />
+
+                <com.app.garageapplication.utility.TextViewDrawableSize
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Swargate, Pune, Maharasthra, 400111"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorBlack"
+                    android:textSize="@dimen/_11ssp" />
+
+                <com.app.garageapplication.utility.TextViewDrawableSize
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:drawableLeft="@drawable/ic_v_5"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:text="@string/website"
+                    android:textSize="@dimen/_12ssp"
+                    app:compoundDrawableHeight="@dimen/_18sdp"
+                    app:compoundDrawableWidth="@dimen/_18sdp" />
+
+                <com.app.garageapplication.utility.TextViewDrawableSize
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="1234567890"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorBlack"
+                    android:textSize="@dimen/_11ssp" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

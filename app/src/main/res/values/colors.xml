@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#0A0A0A</color>-->
+    <color name="colorPrimary">#5ab735</color>
+    <!--<color name="colorPrimaryDark">#EE444C</color>-->
+    <color name="colorPrimaryDark">#36ac32</color>
+    <color name="colorAccent">#5ab735</color>
+
+    <color name="colorAccent_shadow">#395AB735</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="fontTilte">#030303</color>
+
+    <color name="subFontTilte">#6b6b6b</color>
+
+    <color name="colorLightBlack">#A1000000</color>
+
+    <color name="color_template_divider_line">#cdccd0</color>
+    <color name="color_template_divider_line1">#FFD6D8</color>
+    <color name="color_template_divider_line2">#4161171A</color>
+    <color name="login_button">#EE444C</color>
+
+    <!--QR-->
+    <color name="qr_code_flashlight_bg">#66000000</color>
+    <color name="qr_code_finder_mask">#80000000</color>
+    <color name="qr_code_flash_light_text_color">#66FFFFFF</color>
+    <color name="qr_code_finder_frame">#FFFFFFFF</color>
+    <color name="qr_code_finder_laser">#25f705</color>
+
+    <color name="popup_dialog_list_pressed">#10000000</color>
+    <color name="popup_dialog_list_normal">#ffffff</color>
+    <color name="itemclickColorbg">#EBEBEB</color>
+    <color name="color_template_main_bg">#EDEEEE</color>
+</resources>

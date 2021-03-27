@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.RegisterEmployee">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="@dimen/_75sdp"
+                    android:layout_height="@dimen/_75sdp"
+                    android:src="@drawable/garageicon" />
+
+                <ImageView
+                    android:id="@+id/imageViewEdit"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_gravity="end|bottom"
+                    android:background="@drawable/check_uncheck_checkbox"
+                    android:src="@drawable/ic_edit_icon" />
+
+            </FrameLayout>
+
+
+            <com.app.garageapplication.utility.TextViewDrawableSize
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:drawableLeft="@drawable/ic_profile_setting_icon"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableTint="@color/colorBlack"
+                android:text="@string/name"
+                android:textSize="@dimen/_12ssp"
+                app:compoundDrawableHeight="@dimen/_18sdp"
+                app:compoundDrawableWidth="@dimen/_18sdp" />
+
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:hint="john Doe"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorBlack"
+                android:textSize="@dimen/_11ssp" />
+
+
+            <com.app.garageapplication.utility.TextViewDrawableSize
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:drawableLeft="@drawable/ic_email_icon"
+                android:drawablePadding="@dimen/_10sdp"
+                android:text="@string/email"
+                android:textSize="@dimen/_12ssp"
+                app:compoundDrawableHeight="@dimen/_18sdp"
+                app:compoundDrawableWidth="@dimen/_18sdp" />
+
+            <EditText
+                android:id="@+id/etMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:hint="john@gmail.com"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorBlack"
+                android:textSize="@dimen/_11ssp" />
+
+            <com.app.garageapplication.utility.TextViewDrawableSize
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:drawableLeft="@drawable/ic_mo_no"
+                android:drawablePadding="@dimen/_10sdp"
+                android:text="@string/mobile_no"
+                android:textSize="@dimen/_12ssp"
+                app:compoundDrawableHeight="@dimen/_18sdp"
+                app:compoundDrawableWidth="@dimen/_18sdp" />
+
+            <EditText
+                android:id="@+id/edtMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="124567890"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorBlack"
+                android:textSize="@dimen/_11ssp" />
+
+            <com.app.garageapplication.utility.TextViewDrawableSize
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:drawableLeft="@drawable/ic_add_map_icon"
+                android:drawablePadding="@dimen/_10sdp"
+                android:text="@string/address"
+                android:textSize="@dimen/_12ssp"
+                app:compoundDrawableHeight="@dimen/_18sdp"
+                app:compoundDrawableWidth="@dimen/_18sdp" />
+
+            <EditText
+                android:id="@+id/edtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Surat"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorBlack"
+                android:textSize="@dimen/_11ssp" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/txtSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_weight="1"
+        android:background="@drawable/round_button_green"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:padding="@dimen/_10sdp"
+        android:singleLine="true"
+        android:text="@string/submit"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_12ssp" />
+
+</RelativeLayout>
